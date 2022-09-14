@@ -1,8 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import path from 'path';
 
 function App() {
+  console.log('Hello world');
+  path.join('./assets/img', 'logo.png');
+  
   return (
     <div className="App">
       <header className="App-header">
