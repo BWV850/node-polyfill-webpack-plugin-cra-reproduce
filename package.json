@@ -140,5 +140,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "node-polyfill-webpack-plugin": "^2.0.1"
   }
 }
